@@ -7,6 +7,7 @@ export default function Navbar() {
       <div className="flex justify-between p-2 items-center m-2">
         <div className="flex gap-4">
         <h1 className="text-2xl font-semibold text-gray-500">Patient Database </h1>
+        <span className="text-2xl"> &gt; </span>
         <h1 className="text-2xl font-semibold">Patient Profile</h1>
         </div>
         <div className="flex gap-4">
