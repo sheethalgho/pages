@@ -1,4 +1,4 @@
-// components/EmergencyContacts.tsx
+
 import React from "react";
 import { patient } from "../../patient-profile/data/data";
 

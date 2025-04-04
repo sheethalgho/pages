@@ -1,5 +1,5 @@
 import React from "react";
-import { patient } from "../../patient-profile/data/data"; // adjust path as needed
+import { patient } from "../../patient-profile/data/data"; 
 
 const ConsultationHistory = () => {
   const consultations = patient[0]?.consultations || [];

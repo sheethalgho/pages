@@ -7,7 +7,6 @@ import { patient } from '../../patient-profile/data/data';
 export default function InsuranceTabs() {
   const [activeTab, setActiveTab] = useState('insurance');
 
-  // Extract data from patient[0]
   const insuranceData = patient[0]?.insuranceData || [];
   const medicationsData = patient[0]?.medicationsData || [];
   const allergyData = patient[0]?.allergyData || [];
